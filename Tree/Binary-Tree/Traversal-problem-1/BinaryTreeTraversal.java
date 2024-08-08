@@ -1,3 +1,13 @@
+class TreeNode{
+    // step 1:
+    public int value;
+    public TreeNode left, right;
+    // step 2: constructor
+    TreeNode(int value){
+        this.value = value;
+        left = right = null;
+    }
+}
 // traversing class:
 public class BinaryTreeTraversal{
     void inorder(TreeNode root){
@@ -54,14 +64,5 @@ public class BinaryTreeTraversal{
     }
 }
 
-class TreeNode{
-    // step 1:
-    public int value;
-    public TreeNode left, right;
-    // step 2: constructor
-    TreeNode(int value){
-        this.value = value;
-        left = right = null;
-    }
-}
+
 

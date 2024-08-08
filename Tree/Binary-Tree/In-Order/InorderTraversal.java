@@ -1,3 +1,15 @@
+class Node {  
+    // Step 1: initialization
+    public int value;  
+    public Node left, right;  
+    // step 2: constructor
+    public Node(int element)  
+    {  
+        value = element;  
+        left = right = null;  
+    }  
+}  
+
 class InorderTraversal {  
     // object for Node class
     Node root;  
@@ -37,14 +49,4 @@ class InorderTraversal {
     }  
 }  
 
-class Node {  
-    // Step 1: initialization
-    public int value;  
-    public Node left, right;  
-    // step 2: constructor
-    public Node(int element)  
-    {  
-        value = element;  
-        left = right = null;  
-    }  
-}  
+
