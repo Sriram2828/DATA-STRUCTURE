@@ -10,6 +10,7 @@ class Singely{
         names.addLast("Yokesh");
 
         System.out.println(names);
+        System.out.println(names.size());
     }
 }
 
